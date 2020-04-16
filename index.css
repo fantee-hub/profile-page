@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #4000ff;
+  margin:0;
+  padding: 0;
+}
+.img-container{
+  background-image: url('glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg');
+  background-position: fixed;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height:550px;
+  background-size: cover;
+  margin:0;
+  overflow: hidden;
+  max-width:100%;
+  padding: 0px;
+}
+.img-container-content{
+  margin-top:200px;
+  text-align: center;
+  color:white;
+}
+button{
+  display:inline-block;
+  background-color: #2000ff;
+  border:none;
+  color:white;
+  padding: 9px 12px;
+  cursor:pointer;
+  border-radius: 5px;
+}
+button:hover{
+  background: #4000ff;
+}
+button:focus{
+  outline:none;
+}
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding:5px;
+  width:300px;
+}
+img:hover{
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186,0.5);
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+  
+  
+}
+.navbar{
+  display:flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+.navbar a{
+  color:white;
+  padding:14px 20px;
+  text-decoration: none;
+  text-align:center;
+}
+a:hover{
+  color:#ddd;
+}
+.form{
+  margin:0px auto;
+  text-align: center;
+}
+input[type=text]{
+  width:25%;
+  padding:10px;
+  margin:5px;
+  border-radius: 3px;
+  border:none;
+  background: #ccc;
+}
+input[type=text]:focus{
+  outline:none;
+}
+input[type=email]{
+  width:25%;
+  padding:10px;
+  margin: 5px;
+  border-radius: 3px;
+  border:none;
+  background: #ccc;
+}
+input[type=email]:focus{
+  outline:none;
+}
+textarea{
+  width:77.2%;
+  padding: 12px;
+  resize:none;
+  border-radius: 3px;
+  border:none;
+  background: #ccc;
+  margin: 3px;
+}
+textarea:focus{
+  outline:none;
+}
+.btn{
+  width:77.2%;
+  padding:12px;
+  background-color: #ccc;
+  color:black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn:hover{
+  background:#ddd;
+}
+p{
+color:#ddd;
+}
+
